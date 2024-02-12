@@ -47,4 +47,4 @@ The runtime complexity of this algorithm is `O(n)`, we scan through once, creati
 ## Assumptions
 
 By incomplete JSON, we mean a JSON that starts with `{` but does not need to be complete. If an incomplete JSON is provided that is, for example, the bottom or middle of the file, my program will not work. I tried to come up with an approach to this but could not produce something meaningful in time. It would be interesting to explore.
-# incomplete-json
+
