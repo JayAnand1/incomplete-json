@@ -13,7 +13,7 @@ String json = "{"
             + " \"className\": \"year 1\","
             + " \"description\": \"class for year 1\","
             + " \"numberOfStudents\": 5 "
-            + "}";'] 
+            + "}";
         
 JsonObject parsedJson = parser.readJson(json);
 
