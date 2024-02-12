@@ -77,7 +77,7 @@ public class JsonParser {
     }
 
     private void skipWhiteSpace(String json) {
-        while (json.charAt(index) == ' ') {
+        while (index < json.length() && json.charAt(index) == ' ') {
             index++;
         }
     }
